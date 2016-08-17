@@ -1,0 +1,103 @@
+﻿body {
+    padding-top: 2em;
+    background-color: #ebebeb;
+}
+
+.companyName h1 {
+    text-shadow: 2px 2px 2px #5f5f5f;
+}
+
+.companyName h3 {
+    text-shadow: 2px 2px 2px #5f5f5f;
+}
+
+footer {
+    background: #efefef !important;
+}
+.mylogo {
+    padding-top: 1em;
+    padding-right: 10px;
+}
+
+section > #bgphotos {
+    min-height:600px;
+    background-image: url(../image/AdobeStock_92087115.jpg), url(../image/AdobeStock_56942325.jpg);
+    background-size: 30%, 40%;
+    background-position: right top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.jumbotron {
+    position: relative;
+    bottom: 10px;
+    width: 75%;
+    height: 100%;
+    background-color: rgba(254,254,254,0.6);
+    overflow: visible;
+}
+
+@media screen and (max-width: 992px) {
+    section > #bgphotos {
+        min-height: unset;
+        background-size: 80%, 70%;
+        background-position: center top, center bottom;
+        background-position-y: top, bottom;
+        background-repeat: no-repeat, no-repeat;
+    }
+
+    .jumbotron {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(254,254,254,0.85);
+        color:#242424;        
+    }
+    
+    .jumbotron p {
+        font-size: 130%;        
+    }
+    .jumbotron h3 {
+        font-size: 50%;
+    }
+}
+
+.circle {
+    position: relative;    
+    z-index: 0;  
+	width: 25px;
+	height: 25px;
+	background: #5c2040;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    
+}
+
+.socials {
+    position: relative;    
+    text-align: center;    
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999999;   
+}
+
+.circle a {
+    color: #999999;
+}
+
+.circle a:hover {
+    text-decoration: none;
+    color: #efefef;
+}
+
+.circle a:link {
+    text-decoration: none;
+}
+
+.circle a:active {
+    text-decoration: none;
+}
+
+.circle a:visited {
+    text-decoration: none;
+}
