@@ -63,14 +63,14 @@ section > #bgphotos {
     }
     
     .jumbotron p {
-        font-size: 190%;        
+        font-size: 100%;        
     }
     .jumbotron h3 {
         font-size: 70%;
     }
     
     .container {
-        width: 90%;
+        width: 100%;
     }
     
 }
