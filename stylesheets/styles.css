@@ -116,3 +116,37 @@ section > #bgphotos {
 .circle a:visited {
     text-decoration: none;
 }
+
+.circlebutton {
+	display: block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	font-size: 18px;
+	font-weight: bold;
+	color: #999999;
+	line-height: 25px;
+	text-align: center;
+	background: #5c2040";
+}
+
+.circlebutton a {
+    color: #999999;
+}
+
+.circlebutton a:hover {
+    text-decoration: none;
+    color: #efefef;
+}
+
+.circlebutton a:link {
+    text-decoration: none;
+}
+
+.circlebutton a:active {
+    text-decoration: none;
+}
+
+.circlebutton a:visited {
+    text-decoration: none;
+}
