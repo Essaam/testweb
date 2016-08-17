@@ -13,7 +13,7 @@ body {
 
 footer {
     background: #efefef !important;
-    text-size: 6px !important;
+    font-size: 11px;
 }
 .mylogo {
     padding-top: 1em;
