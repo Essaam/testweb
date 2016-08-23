@@ -1,7 +1,8 @@
 ﻿body {
     padding-top: 2em;
-    background-color: #ebebeb;
+    background-color: #fbfbfb; /*#ebebeb;*/
 }
+
 
 .verticalgap {
     display: block;
@@ -29,68 +30,86 @@
 }
 
 footer {
+    position:relative;
+    vertical-align:bottom;
     background: #efefef !important;
     font-size: 11px;
+    margin-top:5px;
+    z-index:3;
 }
 .mylogo {
     padding-top: 1em;
     padding-right: 10px;
 }
 
-section > #bgphotos {
-    min-height:600px;
-    background-image: url(../image/AdobeStock_92087115.jpg), url(../image/AdobeStock_56942325.jpg);
-    background-size: 30%, 40%;
-    background-position: right top, right bottom;
-    background-repeat: no-repeat, no-repeat;
+.myfigures {
+    position: relative;
+    z-index: 0;
+    overflow: auto;
+}
+
+.images {
+    position: relative;
+    padding-top: 10px;
+    max-width:80%;
 }
 
 .jumbotron {
     position: relative;
-    bottom: 10px;
-    width: 70%;
-    height: 100%;
-    background-color: rgba(254,254,254,0.6);
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(254,254,254,0.85);
     overflow: visible;
+    color: black;
+    padding: 2%;
 }
 
 .jumbotron p {
     font-size: 120%;
+    font-weight:300;
     text-align: justify;
 }
 
 .jumbotron h1 {
+    font-weight:400;
     font-size: 24px;
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 992px) {
-    section > #bgphotos {
-        min-height: unset;
-        background-size: 80%, 70%;
-        background-position: center top, center bottom;
-        background-position-y: top, bottom;
-        background-repeat: no-repeat, no-repeat;
-    }
-
-    .jumbotron {
-        width: 100%;
-        height: 100%;
-        background-color: rgba(254,254,254,0.85);
-        color:#242424;        
-    }
-    
+@media only screen and (max-width: 991px) {
+     
     .jumbotron p {
-        font-size: 100%;        
+        font-size: 130%;
+        font-weight:300;
+        text-shadow: 0px 1px 0px #aaaaaa;
     }
-    .jumbotron h3 {
-        font-size: 70%;
+    .jumbotron h1 {
+        font-weight:500;
     }
     
     .container {
         width: 100%;
+        padding: 5px;
     }
-    
+
+    .myxsfigures {
+        position:absolute;
+        z-index: -1;
+    }
+
+    .images {
+        position: relative;
+        z-index:-1;
+        opacity: 0.25;
+        margin-top:10%;
+        max-width:unset;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .myfigures {
+        padding-top: 50%;
+    }
 }
 
 .circlebutton {
@@ -105,7 +124,7 @@ section > #bgphotos {
 	color: #999999;
 	line-height: 25px;
 	text-align: center;
-	background: #5c2040;
+	background: #121212;
 }
 
 .circlebutton:hover {
