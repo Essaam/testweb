@@ -79,8 +79,8 @@ footer {
 @media only screen and (max-width: 991px) {
      
     .jumbotron p {
-        font-size: 130%;
-        font-weight:300;
+        font-size: 100%;
+        font-weight:400;
     }
     .jumbotron h1 {
         font-weight:500;
