@@ -10,7 +10,7 @@ main {
 
 .verticalgap {
     display: block;
-    height: 150px;
+    height: 20px;
 }
 
 .navbar-brand > img {
