@@ -3,10 +3,6 @@ body {
     background-color: #fbfbfb; /*#ebebeb;*/
     height:100%;
 }
-.maincontents {
-	min-height: 100%;
-	margin-bottom: 60px;
-}
 
 main {
     overflow: auto;
@@ -43,13 +39,11 @@ main {
 }
 
 footer {
-    position: absolute;
-    /*position:relative;*/
-    margin-top:-60px;
+    position:relative;
     vertical-align:bottom;
     background: #efefef !important;
     font-size: 11px;
-    /*margin-top:5px;*/
+    margin-top:5px;
     z-index:3;
 }
 .mylogo {
