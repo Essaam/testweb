@@ -8,6 +8,10 @@ main {
     padding-bottom: 100px;
 }
 
+.navbar {
+	float:right;
+}
+
 .verticalgap {
     display: block;
     height: 20px;
