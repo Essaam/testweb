@@ -1,6 +1,11 @@
 body {
     padding-top: 2em;
     background-color: #fbfbfb; /*#ebebeb;*/
+    height:100%;
+}
+.maincontents {
+	min-height: 100%;
+	margin-bottom: 60px;
 }
 
 main {
@@ -38,11 +43,13 @@ main {
 }
 
 footer {
-    position:relative;
+    position: absolute;
+    /*position:relative;*/
+    margin-top:-60px;
     vertical-align:bottom;
     background: #efefef !important;
     font-size: 11px;
-    margin-top:5px;
+    /*margin-top:5px;*/
     z-index:3;
 }
 .mylogo {
