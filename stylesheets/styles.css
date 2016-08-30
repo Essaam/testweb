@@ -46,20 +46,13 @@ main {
     position: relative;
     vertical-align: text-top;
     display: inline;
-    margin: -7px 10px 5px 0px;
-    height: 38px;
+    margin: -15px 10px 5px 0px;
+    height: 50px;
     line-height: 35px;
 }
 
 .navbar-brand > strong {
-    text-shadow: 2px 2px 2px #999999;
-}
-.companyName h1 {
-    text-shadow: 2px 2px 2px #5f5f5f;
-}
-
-.companyName h3 {
-    text-shadow: 2px 2px 2px #5f5f5f;
+     text-shadow: 2px 2px 2px #999999;
 }
 
 footer {
@@ -69,6 +62,7 @@ footer {
     font-size: 11px;
     margin-top:5px;
     z-index:3;
+    color: black;
 }
 .mylogo {
     padding-top: 1em;
@@ -83,7 +77,10 @@ footer {
 .images {
     position: relative;
     padding-top: 30px;
-    height:60%;
+}
+
+.imgsize {
+    max-width: 100%;
 }
 
 .jumbotron {
@@ -153,10 +150,10 @@ footer {
     font-family: sans-serif;
 	font-size: 18px;
 	font-weight: bold;
-	color: #999999;
+	color: white; /*#999999;*/
 	line-height: 25px;
 	text-align: center;
-	background: #121212;
+	background: #149c82; /*#121212;*/
 }
 
 .circlebutton:hover {
