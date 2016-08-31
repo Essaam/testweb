@@ -13,13 +13,13 @@
    inkscape:export-ydpi="70.989998"
    inkscape:export-xdpi="70.989998"
    inkscape:export-filename="C:\Users\nor27995\Desktop\AccesstorsLogo_Selected.png"
-   sodipodi:docname="AccesstorsLogo_Selected.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="0.91 r13725"
    version="1.1"
    id="svg2"
-   viewBox="0 0 744.09448819 1052.3622047"
-   height="297mm"
-   width="210mm">
+   viewBox="0 0 430.4735 421.2"
+   height="118.872mm"
+   width="121.48919mm">
   <defs
      id="defs4">
     <linearGradient
@@ -43,7 +43,7 @@
          id="stop5618" />
     </linearGradient>
     <filter
-       style="color-interpolation-filters:sRGB;"
+       style="color-interpolation-filters:sRGB"
        inkscape:label="Blur"
        id="filter4431">
       <feGaussianBlur
@@ -53,48 +53,52 @@
     </filter>
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="91"
-     inkscape:window-x="2097"
-     inkscape:window-height="949"
-     inkscape:window-width="1387"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1138"
+     inkscape:window-width="1920"
      inkscape:snap-to-guides="true"
      inkscape:guide-bbox="true"
      showguides="false"
      showgrid="false"
      inkscape:current-layer="g4156"
      inkscape:document-units="px"
-     inkscape:cy="821.68994"
-     inkscape:cx="321.95501"
+     inkscape:cy="352.78996"
+     inkscape:cx="-74.597111"
      inkscape:zoom="0.7071068"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base">
+     id="base"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <sodipodi:guide
-       position="522.24887,696.5002"
+       position="337.12166,227.6002"
        orientation="1,0"
        id="guide4223" />
     <sodipodi:guide
-       position="522.24887,671.07144"
+       position="337.12166,202.17144"
        orientation="0,1"
        id="guide4225" />
     <sodipodi:guide
-       position="470.22601,595.73748"
+       position="285.0988,126.83748"
        orientation="0,1"
        id="guide4227" />
     <sodipodi:guide
-       position="254.36904,478.55978"
+       position="69.241838,9.6597887"
        orientation="-0.7756284,0.63118981"
        id="guide4247" />
     <sodipodi:guide
-       position="55.000001,632.85716"
+       position="-130.12719,163.95716"
        orientation="0,1"
        id="guide4249" />
     <sodipodi:guide
-       position="417.1875,625.68751"
+       position="232.06029,156.78751"
        orientation="0,1"
        id="guide4251" />
   </sodipodi:namedview>
@@ -106,7 +110,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -115,7 +119,8 @@
      inkscape:label="Layer 1 copy copy copy copy"
      inkscape:groupmode="layer"
      id="g4156"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-185.1272,-162.26221)">
     <g
        transform="matrix(1,0,-0.40805925,1,0,0)"
        inkscape:transform-center-x="94.69798"
@@ -141,7 +146,8 @@
      id="layer1"
      inkscape:label="insidegloa"
      style="display:inline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-185.1272,-162.26221)">
     <g
        id="g4404"
        style="filter:url(#filter4431)">
@@ -169,7 +175,8 @@
      style="display:none"
      inkscape:label="insidegloa copy"
      id="g4409"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     transform="translate(-185.1272,-162.26221)">
     <g
        id="g4411">
       <path
