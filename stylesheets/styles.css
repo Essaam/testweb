@@ -46,8 +46,12 @@ main {
     position: relative;
     vertical-align: text-top;
     display: inline;
+    margin: -35px 0px 5px 0px;
+    height: 90px;
+    /*
     margin: -15px 10px 5px 0px;
     height: 50px;
+    */
     line-height: 35px;
 }
 
